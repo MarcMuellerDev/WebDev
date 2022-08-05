@@ -156,6 +156,9 @@
     .menu-area-main {
         height: 290px;
         overflow-y: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .mean-container .mean-nav ul li a.mean-expand {
