@@ -34,7 +34,7 @@
         overflow-y: auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .megamenu>.row [class*="col-"] {
@@ -155,10 +155,10 @@
 
     .menu-area-main {
         height: 290px;
-        overflow-y: auto;
+        /*overflow-y: auto;*/
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .mean-container .mean-nav ul li a.mean-expand {
