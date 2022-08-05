@@ -31,6 +31,7 @@
 
     .menu-area-main {
         height: 256px;
+        display: flex;
         justify-content: space-between;
         overflow-y: auto;
     }
@@ -153,6 +154,7 @@
 
     .menu-area-main {
         height: 290px;
+        display: flex;
         justify-content: space-between;
         overflow-y: auto;
     }
