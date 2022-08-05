@@ -1352,9 +1352,9 @@ nav.main-menu {
 .best_img::after {
      position: absolute;
      content: "";
-     width: 1269px;
+     /*width: 1269px;
      height: 1232px;
-     /*background: url(../images/croo.png);*/
+     background: url(../images/croo.png);*/
      top: -55px;
      left: -157%;
      right: 40px;
@@ -1405,14 +1405,15 @@ nav.main-menu {
 }
 
 .croos_rt::after {
-     position: absolute;
+     /* position: absolute;
      content: "";
      width: 1269px;
      height: 1232px;
-     /*background: url(../images/croo1.png);*/
+     /*background: url(../images/croo1.png);
      top: -5px;
      left: -80px;
      background-repeat: no-repeat;
+     */
 }
 
 .best_img.croos_rt {
