@@ -6,7 +6,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-menu ul>li a {
         text-align: center;
-        padding: 20px 20px 20px;
+        padding: 10px 10px 10px;
     }
 
     .header-search {
