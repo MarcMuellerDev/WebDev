@@ -6,9 +6,6 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-menu ul>li a {
         padding: 20px 20px 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
 
     .header-search {
@@ -35,6 +32,9 @@
     .menu-area-main {
         height: 256px;
         overflow-y: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .megamenu>.row [class*="col-"] {
