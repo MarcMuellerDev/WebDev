@@ -1296,7 +1296,7 @@ nav.main-menu {
      padding-bottom: 60px;
 }
 
-.Best .titlepage h2::before {
+/*.Best .titlepage h2::before {
      position: absolute;
      content: "";
      background: rgb(230, 215, 176);
@@ -1316,7 +1316,7 @@ nav.main-menu {
      height: 20px;
      top: 15px;
      margin-left: 15px;
-}
+}*/
 
 
 .best_text p {
