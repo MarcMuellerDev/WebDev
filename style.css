@@ -100,7 +100,7 @@ h1 {
   color: #505050;
 }
 
-@media (min-width: 430px) {
+@media (min-width: 500px) {
   #banner-sig h1 {
     color: #ffffff;
   }
