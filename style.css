@@ -1,0 +1,145 @@
+/*---------------------------------------------------------Google Fonts------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+/*---------------------------------------------------------Skeleton---------------------------------------------------------------------------------*/
+/*----------------------------------------------------------Base-----------------------------------------------------------------------------------*/
+body {
+  color: #666666;
+  background-color: #ffffff;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+/*----------------------------------------------------------Navigation-----------------------------------------------------------------------------------*/
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  cursor: pointer;
+}
+
+.div-nav {
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #505050;
+  color: #ffffff;
+  font-size: 1rem;
+  border-bottom: 2px solid #888;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #e6d7b0 !important;
+}
+
+.navbar-toggler {
+  background-color: #ffffff;
+  color: #e6d7b0;
+}
+
+/*----------------------------------------------------------Slider-----------------------------------------------------------------------------------*/
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+#slogan p {
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+
+.carousel {
+  border-bottom: 2px solid #888;
+}
+
+.carousel-caption {
+  backdrop-filter: blur(1px);
+  border-radius: 50px;
+}
+
+
+
+/*Slider */
+.slider-image {
+  width: 100vw;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn.btn-secondary {
+  background-color: #505050;
+}
+
+
+
+#banner-sig h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color: #505050;
+}
+
+@media (min-width: 410px) {
+  #banner-sig h1 {
+    color: #ffffff;
+  }
+}
+
+.carousel-item p {
+  font-size: 1.5rem;
+}
+
+.card-img-top {
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.card-title a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.card-text {
+  text-align: start;
+}
+
+
+
+@media (max-width: 991px) {
+  .card-group {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+.footer {
+  background-color: #505050;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  border-top: 2px solid #888;
+}
