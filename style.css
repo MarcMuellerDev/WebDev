@@ -14,6 +14,7 @@ body {
 }
 
 
+
 /*----------------------------------------------------------Navigation-----------------------------------------------------------------------------------*/
 
 .navbar-brand {
@@ -68,8 +69,6 @@ h1 {
   border-bottom: 2px solid #888;
 }
 
-
-/*Slider */
 .slider-image {
   width: 100vw;
   height: 50vh;
@@ -82,11 +81,16 @@ h1 {
 }
 
 
-
 #banner-sig h1 {
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
   color: #000000;
+}
+
+@media (min-device-width: 0px) and (max-device-width: 384px) {
+  .carousel-caption{
+  color: #000000;
+  }
 }
 
 @media (min-width: 576px) {
@@ -99,9 +103,11 @@ h1 {
   font-size: 1.5rem;
 }
 
+/*----------------------------------------------------------Cards-----------------------------------------------------------------------------------*/
+
 .card-img-top {
   width: auto;
-  height: auto;
+  height: 241px;
   margin: auto;
   display: block;
 }
@@ -116,13 +122,106 @@ h1 {
 }
 
 
-
-@media (max-width: 991px) {
-  .card-group {
-    display: flex;
-    flex-flow: column wrap;
-  }
+/** contact section **/
+.contact{
+  text-align: center;
 }
+
+.titlepage {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+.titlepage p {
+  color: #505050;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.contact .contact {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 36px;
+  border-radius: 30px;
+  border: #e6d7b0 solid 7px;
+}
+
+.contact .contact .contactus {
+  border: #505050 solid 1px;
+  padding: 0px 0px 12px 0px;
+  margin-bottom: 30px;
+  border-radius: inherit;
+  color: #505050;
+  width: 100%;
+  border-top: inherit;
+  border-right: inherit;
+  border-left: inherit;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.contact .contact .textarea {
+  margin-bottom: 25px;
+  padding: 15px 0px;
+  border: transparent;
+  color: #505050 !important;
+  width: 100%;
+  font-size: 17px;
+  line-height: 18px;
+  border-radius: inherit;
+  border: #505050 solid 1px;
+  border-top: inherit;
+
+  border-right: inherit;
+
+  border-left: inherit;
+}
+
+.contact .contact .send {
+  font-size: 16px;
+
+  background-color: #505050;
+  color: #fff;
+  width: 190px;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 27px;
+  text-align: center;
+  /*padding: 10px 60px;
+  margin: 0 auto;
+  border-radius: 30px;
+  display: block;*/
+}
+
+.contact .contact .send:hover {
+  background-color: #e6d7b0;
+  color: #505050;
+  width: 190px;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 27px;
+  text-align: center;
+
+}
+
+.rable-box figure {
+  margin: 0px;
+}
+
+.rable-box figure img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+/*----------------------------------------------------------Footer-----------------------------------------------------------------------------------*/
 
 .footer {
   background-color: #505050;

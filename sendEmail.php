@@ -1,3 +1,19 @@
+<?php 
+
+$subject =$_POST['subject']
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+
+$mailheader = "From:" .$name."<".$email.">\r\n"
+
+$recipient = "marcmueller85@htp-tel.de";
+
+mail($recipient, $subject, $message, $mailheader)
+or die("Ein Fehler ist aufgetreten, bitte versuchen Sie es noch einmal!");
+
+echo'
 <!DOCTYPE html>
 <html lang="en">
 
@@ -112,115 +128,9 @@
 
     <!--Produktübersicht-->
     <div id="products" class="container my-5">
-        <h1 class="heading fw-bold my-0">Unsere Produkte</h1>
-        <!--Cards-->
-        <div class="row row-cols-1 row-cols-lg-4 my-5">
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="flaschen.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Spirituosen</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="muehlesalz1.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Gewürz Meersalz</h5>  
-                </div>
-              </div>
-            </div>
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="zucker1.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Zucker</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="marmelade.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Sanddorn-Marmelade</h5>
-                </div>
-              </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-lg-4 g-4 my-5">
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="teetuete.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Sanddorn-Tee</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="geschenk.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Geschenkverpackungen</h5> 
-                </div>
-              </div>
-            </div>
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="suesswaren.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Süßwaren</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col mt-0 mb-5">
-              <div class="card mx-auto border-0 rounded-0 text-align-center">
-                <a href=""><img src="nordseeliebe.png" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                    <h5 class="card-title fw-bold fs-5 text-center">Bio-Sortiment</h5>
-                </div>
-              </div>
-            </div>
-        </div>
+        <h1 class="heading fw-bold my-0">Vielen Dank für Ihre Email! Wir werden uns umgehend bei Ihnen melden!</h1>
     </div>
-    <!-- contact -->
-   <div id="contact" class="contact">
-    <div class="container my-5">
-       <div class="row">
-          <div class="col-lg-12">
-             <div class="titlepage">
-                <h2>Kontaktformular</h2>
-             </div>
-          </div>
-       </div>
-       <div class="row">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-             <div class="contact">
-                <form action="sendEmail.php" method="POST">
-                   <div class="row">
-                      <div class="col-sm-12">
-                        <input type="hidden" name="subject" value="Neue Nachricht von Website">
-                        <input class="contactus" placeholder="Name" type="text" name="name" required>
-                      </div>
-                      <div class="col-sm-12">
-                         <input class="contactus" placeholder="Telefonnummer" type="text" name="phone" required>
-                      </div>
-                      <div class="col-sm-12">
-                         <input class="contactus" placeholder="Email" type="email" name="email" required>
-                      </div>
-                      <div class="col-sm-12">
-                         <textarea class="textarea" placeholder="Nachricht" type="text" name="message" required></textarea>
-                      </div>
-                      <div class="col-sm-12">
-                         <button type="submit" class="send">Send</button>
-                      </div>
-                   </div>
-                </form>
-             </div>
-          </div>
-       </div>
-    </div>
- </div>
+ 
 
     <!--Footer-->
     <div class="footer py-1">
@@ -237,3 +147,10 @@
 </body>
 
 </html>
+
+
+
+';
+
+
+?>
