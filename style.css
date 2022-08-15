@@ -114,7 +114,7 @@ h1 {
 
 .card-title a {
   text-decoration: none;
-  color: #666666;
+  color: #505050;
 }
 
 .card-text {
@@ -184,13 +184,14 @@ h1 {
 
   background-color: #505050;
   color: #fff;
-  width: 190px;
+  width: 150px;
   padding: 12px 0;
   font-weight: 500;
   font-size: 17px;
   line-height: 30px;
   color: #fff;
   border-radius: 27px;
+  border: none;
   text-align: center;
   /*padding: 10px 60px;
   margin: 0 auto;
@@ -201,13 +202,14 @@ h1 {
 .contact .contact .send:hover {
   background-color: #e6d7b0;
   color: #505050;
-  width: 190px;
+  width: 150px;
   padding: 12px 0;
   font-weight: 500;
   font-size: 17px;
   line-height: 30px;
   color: #fff;
   border-radius: 27px;
+  border: none;
   text-align: center;
 
 }
@@ -234,4 +236,41 @@ h1 {
 
 .footer a {
   color: #ffffff;
+}
+
+.btn{
+  background-color: #505050;
+  color: #ffffff;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #505050;
+  color: #e6d7b0;
+  border: none;
+}
+
+.offcanvas-title{
+  color: #505050;
+}
+
+.offcanvas-body{
+  color: #505050;
+}
+
+.offcanvas-body a{
+  color: #505050;
+  text-decoration: none;
+}
+
+.offcanvas-body a:hover{
+  color: #e6d7b0;
+}
+
+.offcanvas-body h2{
+  font-size: 1.5rem;
+}
+
+.offcanvas-body h1{
+  font-size: 1.8rem;
 }
